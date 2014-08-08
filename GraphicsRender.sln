@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RenderEngine", "RenderEngine\RenderEngine.vcxproj", "{AD049EB2-8813-4579-8FF2-5D68AC08BFED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AppBase", "AppBase\AppBase.vcxproj", "{D5C9CB12-8E6C-4A78-A9BF-9001C2EBA672}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{2E50F8A8-8547-4745-B85E-85E0E45F5FB6}"
+	ProjectSection(SolutionItems) = preProject
+		include\grdefines.h = include\grdefines.h
+		include\grtypes.h = include\grtypes.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD049EB2-8813-4579-8FF2-5D68AC08BFED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AD049EB2-8813-4579-8FF2-5D68AC08BFED}.Debug|Win32.Build.0 = Debug|Win32
+		{AD049EB2-8813-4579-8FF2-5D68AC08BFED}.Release|Win32.ActiveCfg = Release|Win32
+		{AD049EB2-8813-4579-8FF2-5D68AC08BFED}.Release|Win32.Build.0 = Release|Win32
+		{D5C9CB12-8E6C-4A78-A9BF-9001C2EBA672}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D5C9CB12-8E6C-4A78-A9BF-9001C2EBA672}.Debug|Win32.Build.0 = Debug|Win32
+		{D5C9CB12-8E6C-4A78-A9BF-9001C2EBA672}.Release|Win32.ActiveCfg = Release|Win32
+		{D5C9CB12-8E6C-4A78-A9BF-9001C2EBA672}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
